@@ -12,7 +12,7 @@ app.use(express.static('public'))
 
 // Maak een route voor de index
 app.get('/', (request, response) => {
-  fetchJson(squadUrl).then((data) => {
+  fetchJson(url).then((data) => {
   response.render('index', data)
   })
 
