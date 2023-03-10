@@ -15,9 +15,6 @@ body{
   line-height: 110%;
   background-color: black;
 }
-h1, h2{
-  color: var(--secondary-color);
-}
 h2, h3, h4, p{
   max-width: 30rem;
 }
@@ -25,7 +22,6 @@ h2, h3, h4, p{
   width: 90%;
   margin: auto;
 }
-
 /* navigaties  */
 .top-nav{
   display: flex;
@@ -46,7 +42,6 @@ h2, h3, h4, p{
 .top-nav > a:hover{
 color: var(--primary-color);
 }
-
 .main-nav{
   display: flex;
   flex-direction: row;
@@ -74,8 +69,6 @@ color: var(--primary-color);
   text-decoration:overline solid var(--secondary-color);
   
 }
-
-
 /* home page */
 
 .home_page-container{
@@ -171,7 +164,6 @@ color: var(--primary-color);
   background-color: var(--primary-color);
   transition: .4s;
 }
-
 /* stekjes */
 .search-plant{
 position: relative;
@@ -180,9 +172,8 @@ flex-direction: row;
 justify-content: center;
 padding: 3rem 0;
 }
-
 .search-plant input{
-  width: 60%;
+  width: 80%;
   padding: 1rem 2.5rem;
   border-radius: 0 40px 0 40px;
   border-color: var(--secondary-color);
@@ -194,7 +185,7 @@ padding: 3rem 0;
   position: absolute;
   fill: var(--secondary-color);
   width: 35px;
-  right: 22%;
+  right: 15.5%;
   top:40%;
 }
 .plant-box{
@@ -389,6 +380,29 @@ padding: 3rem 0;
   height: 100%;
   padding-bottom: 1em;
  }
+
+/* stekjes */
+.plant-box{
+  display: flex;
+  flex-direction: column;
+}
+.plant-box_card {
+  width: 100%;
+}
+.plant-box_card img {
+  width: 100%;
+}
+
+
+ /* aanmelden page */
+ .stekje-aanmelden-form input, select, textarea {
+  width: 100%;
+}
+.plant-img-form {
+  width: 91%;
+  left: 44%;
+  top: 14.5%;
+}
   /* footer */
   .footer_top {
     width: 100%;
@@ -401,7 +415,11 @@ padding: 3rem 0;
   .footer_top div{
     padding-bottom: 2.5em;
   }
+  .footer_top iframe{
+    width: 100%;
+  }
   .footerbottom {
     padding: 2em 3em 0 3em;
   }
+
 }
