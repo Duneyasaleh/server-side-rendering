@@ -24,15 +24,14 @@ app.get('/', (request, response) => {
      })
   
 })
-app.get('/stekjes/:slug', function (request, response) {
-  let slug = request.query.slug 
-  let stekjesUrl = url +'/stekjes'+ slug
-   fetchJson(stekjesUrl).then((data) => {
+app.get('/stekje', function (request, response) {
+  let slug = request.query.stekjeSlug || 'scindapsus'
+  let stekjeUrl = url +'/stekje?slug='+ slug
+   fetchJson(stekjeUrl).then((data) => {
     response.render('stekje', data)
      })
   
 })
-
 
 
 app.get('/aanmelden', function (request, response) {

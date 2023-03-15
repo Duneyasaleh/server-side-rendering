@@ -10,6 +10,7 @@
         <img src="/assets/Philodendron.jpeg" alt="Philodendron">
         <div class="plant-box_card-info">
             <h2><%= stekje.naam %></h2>
+            <div class="plant-box_card-info-extra">
             <em><svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.7594 17.9162C10.7594 17.9162 10.3934 16.0218 7.83156 14.3378" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M5.41679 11.8978L5.23875 13.7465C5.12674 14.91 5.99909 15.946 7.16263 16.058C8.64484 16.058 9.33849 15.3334 9.44842 14.1918C9.55834 13.0501 8.72197 12.0355 7.58031 11.9256L5.61281 11.7361C5.51407 11.7266 5.42628 11.799 5.41679 11.8978Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
@@ -21,9 +22,11 @@
                 <path d="M19 9V5C19 3.89543 18.1046 3 17 3H16.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
                  <%= stekje.aanmelddatum  %></em>
-            <p>je plaatst een kast in je tuin en je ruilt je plant (of stekje)...</p> 
-            <a href="stekjes/<%= stekje.slug %>">Meer lezen</a>
+                <p>je plaatst een kast in je tuin en je ruilt je plant (of stekje)...</p> 
+               
         </div>
+        <a href="/stekje/?stekjeSlug=<%= stekje.slug %>">Meer lezen</a>
+    </div>
     </article>
     <% }) %>
 </section>
