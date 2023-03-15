@@ -1,6 +1,5 @@
 import express from 'express'
-
-const url ='https://api.buurtcampus-oost.fdnd.nl/api/v1/stekjes' 
+const url = 'https://api.buurtcampus-oost.fdnd.nl/api/v1'
 const app = express()
 
 // Stel in hoe we express gebruiken
@@ -12,15 +11,29 @@ app.use(express.static('public'))
 
 // Maak een route voor de index
 app.get('/', (request, response) => {
-  fetchJson(url).then((data) => {
-  response.render('index', data)
-  })
+   fetchJson(url).then((data) => {
+     response.render('index', data)
+     })
+    
+    })
 
-
- })
  app.get('/stekjes', function (request, response) {
-  response.render('stekjes')
+  let stekjesUrl = url+'/stekjes'
+   fetchJson(stekjesUrl).then((data) => {
+    response.render('stekjes',data)
+     })
+  
 })
+app.get('/stekjes/:slug', function (request, response) {
+  let slug = request.query.slug 
+  let stekjesUrl = url +'/stekjes'+ slug
+   fetchJson(stekjesUrl).then((data) => {
+    response.render('stekje', data)
+     })
+  
+})
+
+
 
 app.get('/aanmelden', function (request, response) {
   response.render('stekje-aanmelden')
