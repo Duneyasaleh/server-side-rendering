@@ -1,6 +1,8 @@
 
 # Plant swap
 
+![poster](https://user-images.githubusercontent.com/54691201/225738458-669bb8ea-9872-4483-97e0-c29ae441651f.png)
+
 
 
 ## Inhoudsopgave
@@ -11,8 +13,6 @@
   * [Gebruik](#gebruik)
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
-
-![poster](https://user-images.githubusercontent.com/54691201/225738458-669bb8ea-9872-4483-97e0-c29ae441651f.png)
 
 
 ## Beschrijving ✍
