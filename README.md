@@ -26,6 +26,9 @@ de users stories zijn:
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 ## Kenmerken 👓
+In deze sprint heb ik gewerkt aan het website voor de stekjes ruilen. Dit is een website die we vaak gaan gebruiken om ruilprocessen/aanmeldt processen te weergeven. Aan dit website wordt een API url meegegeven en vervolgens wordt de data opgehaald van de API. De website voor de ruilprocessen zijn gemaakt door middel van Nodejs, Ejes, javascript, Html en Css.
+ - Nodejs -v : v18.14.0
+ - Npm -v : 9.4.1
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
 ### tools
