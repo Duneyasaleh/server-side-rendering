@@ -12,6 +12,9 @@
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
+![poster](https://user-images.githubusercontent.com/54691201/225738458-669bb8ea-9872-4483-97e0-c29ae441651f.png)
+
+
 ## Beschrijving ✍
 buurtcampus hadden 3 users stories ontvagen en ik mag 1 kiezen en aanwerken, en tijdens mijn onderzoek kom ik achter dat in een project kan ik de 3 users stories oplossing.
 
