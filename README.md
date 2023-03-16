@@ -17,8 +17,8 @@ buurtcampus hadden 3 users stories ontvagen en ik mag 1 kiezen en aanwerken, en 
 
 de users stories zijn:
 - Als buurtbewoner van Amsterdam Oost wil ik informatie vinden over het verzorgen van planten, zodat ik niet steeds nieuwe planten hoef te kopen en daarme verspilling tegen ga.
-- Als buurtbewoner van Amsterdam Oost wil ik informatie vinden over de positieve bijdrage van planten op de leefomgeving, zodat ik gemotiveerd raak stekjes te planten - in mijn omgeving
-Als buurtbewoner van Amsterdam Oost wil ik kunnen zien welke stekjes momenteel in de stekjeskast zitten, zodat ik kan overwegen een stekje om te ruilen
+- Als buurtbewoner van Amsterdam Oost wil ik informatie vinden over de positieve bijdrage van planten op de leefomgeving, zodat ik gemotiveerd raak stekjes te planten in mijn omgeving
+- Als buurtbewoner van Amsterdam Oost wil ik kunnen zien welke stekjes momenteel in de stekjeskast zitten, zodat ik kan overwegen een stekje om te ruilen
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
