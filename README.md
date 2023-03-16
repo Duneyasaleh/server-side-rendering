@@ -34,12 +34,18 @@ In deze sprint heb ik gewerkt aan het website voor de stekjes ruilen. Dit is een
 ### tools
 - figma
 - visuel studio code
+- Terminal 
+- Npm
+- nodejs
+- josn
+
 
 ### gerbuikte technieken
 
 - node
 - javascript
 - ejs
+- html
 - css
 
 
