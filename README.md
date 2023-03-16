@@ -55,6 +55,8 @@ de users stories zijn:
 
 ## Bronnen
 de bronnen die zijn gebruikt voor dit project zijn:
+- https://nodejs.org/en
+- https://ejs.co/
 
 ## Licentie
 
